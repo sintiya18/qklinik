@@ -1,0 +1,219 @@
+/* ================= RESET ================= */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f1f5f9;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    height: 56px;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 240px;
+    height: calc(100vh - 56px);
+    background:  #0b5ed7;
+    color: white;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+
+/* hide */
+.sidebar.hide {
+    left: -240px;
+}
+
+/* title */
+.sidebar-title {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* menu */
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #334155;
+    color: white;
+}
+
+/* active */
+.sidebar a.active {
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    margin: 5px 10px;
+}
+
+/* kondisi normal */
+.main-content {
+    margin-left: 240px;
+    margin-top: 56px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+/* saat sidebar ditutup */
+.main-content.full {
+    margin-left: 0;
+}
+
+/* logout */
+.logout {
+    color: #f87171 !important;
+}
+
+/* ================= CONTENT ================= */
+.main-content {
+    margin-left: 240px;
+    margin-top: 56px;
+    padding: 20px;
+    min-height: calc(100vh - 56px);
+}
+
+/* ================= BUTTON ================= */
+.menu-toggle {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* ================= CARD ================= */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ================= TABLE ================= */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ================= FORM (LOGIN / REGISTER) ================= */
+.register-card {
+    max-width: 420px;
+    margin: 70px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.form-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    transition: 0.3s;
+}
+
+.form-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+}
+
+.form-box:focus-within {
+    border-color: #0d6efd;
+    background: #fff;
+}
+
+/* NAVBAR CUSTOM */
+.custom-navbar {
+    height: 60px;
+    background: linear-gradient(90deg, #1e293b, #2563eb);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* brand */
+.navbar-brand {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* user section */
+.custom-navbar .bi-person-circle {
+    font-size: 28px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f5f9;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn-custom {
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+/* FITUR */
+.fitur {
+    padding: 60px 20px;
+}
+
+.fitur h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* CARD */
+.fitur-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.fitur-card:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+.footer {
+    background: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
